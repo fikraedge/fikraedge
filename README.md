@@ -1,16 +1,35 @@
-## Hi there 👋
+# FikraAI
 
-<!--
-**fikraedge/fikraedge** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+FikraAI is a global platform connecting innovators and investors securely to solve industry-specific challenges. The platform ensures idea protection, smart contract-driven investments, and a sustainable model for continuous innovation.
 
-Here are some ideas to get you started:
+## Features
+- **Idea Protection**: Blockchain-powered security for ideas and intellectual property.
+- **Smart Matching**: AI-powered connections between innovators and investors.
+- **Smart Contracts**: A decentralized solution for investment agreements.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Getting Started
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/FikraAI.git
+    ```
+
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Start the application:
+    ```bash
+    npm start
+    ```
+
+## Contributing
+
+We welcome contributions! Please follow these steps:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-name`)
+3. Commit your changes (`git commit -am 'Add new feature'`)
+4. Push to the branch (`git push origin feature-name`)
+5. Create a new Pull Request
