@@ -1,45 +1,24 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fikra Edge</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #f9f9f9, #e3e3ff);
-      text-align: center;
-      padding: 50px;
-    }
-    h1 {
-      color: #333;
-      font-size: 3em;
-    }
-    p {
-      font-size: 1.2em;
-      color: #555;
-      margin-top: 10px;
-    }
-    .button {
-      margin-top: 30px;
-      padding: 12px 25px;
-      background-color: #4a90e2;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      font-size: 1em;
-      cursor: pointer;
-      text-decoration: none;
-    }
-    .button:hover {
-      background-color: #357ABD;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fikra Edge</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>منصة Fikra Edge</h1>
-  <p>ابدأ رحلتك الذكية نحو ربط المبتكرين بالمستثمرين في بيئة آمنة وعادلة.</p>
-  <a class="button" href="#">ابدأ الآن</a>
+    <div class="language-switcher">
+        <button onclick="setLanguage('en')">English</button>
+        <button onclick="setLanguage('ar')">العربية</button>
+    </div>
+
+    <div id="content" class="content">
+        <h1 lang="en">Welcome to Fikra Edge</h1>
+        <h1 lang="ar" style="display:none;">مرحبًا بك في فكرة إيدج</h1>
+        <p lang="en">Connecting innovators with investors in a safe and smart environment.</p>
+        <p lang="ar" style="display:none;">ربط المبتكرين بالمستثمرين في بيئة آمنة وذكية.</p>
+    </div>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
