@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: ltr;
+}
+
+body[lang="ar"] {
+    font-family: 'Amiri', serif;
+    direction: rtl;
+}
+
+.language-switcher button {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.content h1, .content p {
+    margin: 20px;
+}
